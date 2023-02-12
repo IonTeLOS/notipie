@@ -10,6 +10,9 @@ Configure NotiPie application to get your notifications the way You want.
 A separate app, mudslide, is used to materialize the WhatsApp forwarding feature (Internet access is required for this feature to work). An in-house built .exe of mudslide app is included in the box. If that doesn’t work as expected, you can install mudslide manually from npm (prior installation of nodejs and git is required). Find more about mudslide in their website --> https://github.com/robvanderleek/mudslide. 
 notipie-listen will optionally attempt to find a suitable icon for the app sending the notification and use that icon when showing the notification with NotiPie. Icons are downloaded with google-images-download script as shown in their website --> https://github.com/hardikvasa/google-images-download (Internet access is required for this feature to work - fallback icon provided). 
 You can activate 'focus assist' Windows feature to receive your toast notifications exclusively with NotiPie. Nevertheless, your notifications will remain accessible in your action center, unless you explicitly use the '--delete' argument. 
+
+Test notifications are sent with win11toast --> https://github.com/GitHub30/win11toast
+
 Attention: 
 i. Make sure you have activated notifications in your settings.        
 ii. To use this application you need to allow app access to your notifications in your Windows settings. iii. NotificationListener, an integrated Windows feature, is not supported in older versions of Windows.  Enjoy !
